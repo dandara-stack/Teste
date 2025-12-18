@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qual Monster Você É?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="quiz-container">
+    <h1>Qual Monster Você É?</h1>
+    <div id="start-screen">
+      <p>Responda a 5 perguntas divertidas e descubra qual Monster mais combina com você!</p>
+      <button id="start-btn">Começar o Teste</button>
+    </div>
+    <div id="question-screen" class="hidden">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-btn" class="hidden">Próxima</button>
+    </div>
+    <div id="result-screen" class="hidden">
+      <h2 id="result-title"></h2>
+      <img id="result-image" alt="Monster">
+      <p id="result-description"></p>
+      <button id="restart-btn">Refazer o Teste</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
